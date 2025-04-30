@@ -337,7 +337,7 @@ namespace Demo
         private void OnGetSerialNumberTimerTick(object sender)
         {
 #if DEBUG
-            SendSerialNumber("Test");
+            SendSerialNumber("0123456789");
 #else
             SendSerialNumber(GetCardSerialNumber());
 #endif
