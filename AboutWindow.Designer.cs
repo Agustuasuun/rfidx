@@ -56,10 +56,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(8, 5);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 33);
+            this.label1.Size = new System.Drawing.Size(140, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "NFC Tool";
             // 
@@ -71,7 +71,7 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(8, 48);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(145, 43);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(140, 43);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // label2
@@ -90,15 +90,16 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 20);
+            this.label3.Size = new System.Drawing.Size(110, 20);
             this.label3.TabIndex = 1;
-            this.label3.Text = "IW-H1-001";
+            this.label3.Text = "IW-H1-001-25";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // closeButton
             // 
             this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.closeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeButton.Location = new System.Drawing.Point(74, 99);
+            this.closeButton.Location = new System.Drawing.Point(69, 99);
             this.closeButton.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(79, 36);
